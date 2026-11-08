@@ -2,6 +2,12 @@
 
 Foundation-only helpers shared by every other package. No dependencies.
 
+## Quick Index
+
+- **Layout** — extensions on `Array`/`Dictionary`/`Bool`/`Int`/`Int64`/`Double`/`String`/`Date` + `SortType`, one test file per extension.
+- **Rules** — date/number formatting must be locale/timezone-independent; no domain types (those belong in `ApoorvaModels`).
+- **Commands** — `swift test` / `swift test --filter <Name>`.
+
 ## Layout
 - `Sources/ApoorvaUtilities/` — extensions on `Array`, `Dictionary`, `Bool`, `Int`, `Int64`, `Double`, `String`, `Date`, plus `SortType`.
 - `Tests/ApoorvaUtilitiesTests/` — one test file per extension.
